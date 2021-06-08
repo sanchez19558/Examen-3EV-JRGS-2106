@@ -25,6 +25,13 @@ namespace UnitTestProject1
             int aprE = 1;
             int notE = 2;
             int sbrE = 1;
+
+            EstadisticasDeNotas listaNotas = new EstadisticasDeNotas(notas);
+            double media = listaNotas.CalcularEstadisticas(notas);
+
+            Assert.AreEqual(expected: mediaEsperada, media, "Esto es lo esperado");
         }
+
+
     }
 }
