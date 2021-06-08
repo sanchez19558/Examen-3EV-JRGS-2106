@@ -4,7 +4,7 @@ namespace Examen3EV_NS
 {
     public class estNot  // esta clase nos calcula las estadísticas de un conjunto de notas 
     {
-        public int sus;  // Suspensos
+        public int suspenso;  // Suspensos
         public int apr;  // Aprobados
         public int not;  // Notables
         public int sbr;  // Sobresalientes
